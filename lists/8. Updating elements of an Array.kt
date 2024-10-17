@@ -10,4 +10,5 @@ fun main() {
 
     val arrayOfScienceSubjects = arrayOf("English", "Maths", "Physics", "Biology", "Chemistry")
     arrayOfScienceSubjects[1] = "Mathematics"
+    println(arrayOfScienceSubjects.joinToString())
 }
